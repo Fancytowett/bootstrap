@@ -1,0 +1,81 @@
+.nabar{
+    background-color: transparent;
+
+}
+.bg-light{
+    background-color: white !important;
+}
+.navbar-light.navbar-nav.nav-link{
+    color:orangered;
+}
+.carousel-caption{
+    top:40%;
+
+
+}
+.d-block w-100{
+
+}
+/*.carousel-caption h5{*/
+    /*font-size: 30px;*/
+    /*color: orangered;*/
+/*}*/
+.orange-line{
+    width:100px;
+    background-color: orangered;
+    height: 3px;
+}
+.hero-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.media .mt-0 h5{
+    color: orangered;
+}
+.media i{
+    color: darkgray;
+}
+.item img{
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+.item img:hover{
+    -webkit-transform:scale(1.1) ;
+    transform: scale(1.1);
+}
+.bg-gray{
+    background-color: #e0DFDF;
+}
+.panel{
+    background-color: white;
+}
+.panel-heading{
+    padding:  10px 10px;
+}
+.panel-body{
+    padding: 10px;
+}
+.panel-title >a:before{
+    float: right !important;
+    font-family: FontAwesome;
+    content: "\f068";
+    padding-right: 5px ;
+}
+.panel-title > a.collapsed:before{
+    float:right;
+    content: "\f067";
+              }
+              .panel-title > a:hover,
+              .panel-title > a:active,
+              .panel-title > a:focus{
+                  text-decoration: none;
+              }
+              .contact{
+                  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/images/22.jpg");
+                  background-position: center;
+                  background-size: cover;
+                  background-attachment:fixed ;
+              }
+              .contact-text{
+                  padding: 200px  10px;
+              }
